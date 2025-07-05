@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>UNIVERS MANAGEMENT SOLUTIONS</title>
+    <style>
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .team-member:hover .overlay {
+            opacity: 1;
+        }
+
+        .linkedin-icon {
+            color: #0A66C2;
+            /* Couleur bleue de LinkedIn */
+        }
+
+        .landing-header {
+            width: 100%;
+            height: 100vh;
+            background-image: url('images/WhatsApp Image 2024-11-03 at 11.30.40.jpeg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <img src="images\20240914_110810.png" alt="">
+        <h3 id="entName">UNIVERS MANAGEMENT SOLUTIONS</h3>
+        <!----<h4 id="sousTitre">Cabinet de conseil</h4>---->
+    </div>
+
+
+
+    <nav>
+        <ul id="menuList">
+            <li><a href="#aPropos">Qui somme nous?</a></li>
+            <li><a href="#Vision">Notre Vision</a></li>
+            <li><a href="#valeurs">Nos Valeurs</a></li>
+            <li><a href="#mission">Notre Mission</a></li>
+            <li><a href="formation.html">Formation</a></li>
+            <li><a href="#toContact">Contact</a></li>
+        </ul>
+
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+
+    
+    <!------------------------------a propos de nous------------------------->
+
+    <header class="landing-header">
+        <h1>Bienvenue chez Univers Management Solutions</h1><br>
+        <h3>Experts en conseil, transformation digitale, et solutions
+            stratégiques pour accompagner la croissance de votre entreprise</h3><br>
+            <a href="#toContact">Contacter nous</a>
+    </header>
+    <!-- About Section -->
+    <section id="aPropos" class="bg-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 lg:pr-10">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">À PROPOS DE NOTRE ENTREPRISE</h2>
+                <p class="text-gray-600 mb-6">
+                    UMS (Univers Management Solutions) est un cabinet qui opère dans l’univers des affaires, de la
+                    production et de l’innovation.
+                    Il apporte aux dirigeants d’entreprises des réponses et des solutions sur mesure aux différentes
+                    questions en domaine de la vie de l’entreprise.
+                </p>
+                <p class="text-gray-600 mb-6">
+                    Créé de l’idée de contribution active dans le marché du conseil, UMS se base dans l’accomplissement
+                    de ses missions sur des valeurs fondamentales régissant sa relation envers ses clients.
+                    Par la participation vivement qualifiée des consultants et experts chevronnés dans les domaines du
+                    management, communication, RH, finance et informatique,
+                    UMS offre à ses clients des conseils et solutions de qualité.
+                </p>
+            </div>
+            <div class="lg:w-1/2">
+                <img id="aboutImg" src="https://i.postimg.cc/J0B7HpSH/Untitled-design.png"
+                    alt="Image showing team collaboration at UMS" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+      
+
+    <!-- Values Section -->
+    <section id="Vision" class="bg-gray-50 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+                <!-- Vision -->
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-star text-5xl mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Vision</h3>
+                    <p class="text-gray-600">Être un leader dans l’innovation et la solution aux entreprises.</p>
+                </div>
+
+                <!-- Missions -->
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-medal text-5xl mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Missions</h3>
+                    <p class="text-gray-600">Fournir des solutions sur mesure adaptées aux besoins spécifiques des
+                        entreprises.</p>
+                </div>
+
+                <!-- Goals -->
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-bullseye text-5xl mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Objectifs</h3>
+                    <p class="text-gray-600">Atteindre l'excellence en fournissant des conseils de haute qualité.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--------------------valeurs---------------->
+
+    <div id="valeurs" class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl lg:text-center">
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nos valeurs</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Nos interventions se basent sur des valeurs fondamentales régissant nos relations avec nos clients</p>
+          </div>
+          
+          <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+            <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
+                    <i class="fa-regular fa-face-smile"></i>
+                  </div>
+                  La satisfaction client
+                </dt>
+              </div>
+
+
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
+                    <i class="fa-solid fa-brush"></i>
+                  </div>
+                  La réactivité
+                </dt>
+              </div>
+
+
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
+                    <i class="fa-solid fa-business-time"></i>
+                  </div>
+                  Le respect de nos engagements
+                </dt>
+              </div>
+
+
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  L’intégrité
+                </dt>
+              </div>
+
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
+                    <i class="fa-brands fa-creative-commons-sampling"></i>
+                  </div>
+                  L’écoute
+                </dt>
+              </div>
+
+        
+
+              
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <!---------------missiom------------------------------>
+      <section id="mission" class="bg-white py-12"></section>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 lg:pr-10">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Notre mission</h2>
+                <p class="text-gray-600 mb-6">
+                    Accompagner et assister les organisations publiques et privées dans la mise en oeuvre de solutions 
+                    adaptées en management transversal, Gestion des Ressources Humaines, recrutement, formation et gestion de l'Intérim.
+                </p>
+                <p class="text-gray-600 mb-6">
+                    Notre expérience et notre expertise nous permet de conseiller et d'accompagner les dirigeants dans l'élaboration de Stratégie
+                    de gestion des différentes activités.
+                </p>
+                <p class="text-gray-600 mb-6"></p>
+                    De mener à bien leurs projets de transformation, en mettant à leurs dispositions les outils nécessaires
+                    d'adaptation et de conduite du changement. De concevoir les processus de changements organisationnels
+                    et managériaux (Humaines, technologiques, financiers, informatiques, démarche qualité, sécurité, ...)
+                    selon les finalités attendues.
+                </p>
+            </div>
+            <div class="lg:w-1/2">
+                <img id="aboutImg" src="images\business-marketing-communication-ciliabule.webp"
+                    alt="Image showing team collaboration at UMS" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section><br>
+
+
+    <!---------------------système informatique et digital----------------------->
+      <!-- Header -->
+      <div class="text-center bg-blue-900 text-white p-4 rounded-t-md">
+        <h1 class="text-3xl font-bold">SYSTÈMES D'INFORMATION ET TRANSFORMATION DIGITALE</h1>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="bg-white p-4 rounded-md shadow-md mt-2">
+        <p class="text-gray-700 text-lg">
+            Les systèmes d'information sont au centre des opérations des entreprises d'aujourd'hui. UMS est un cabinet de conseil en système d'information, sa mission est d'accompagner les clients dans l'identification des briques technologiques nécessaires à leur développement, dans le choix des solutions les plus adaptées à la nature de leur activité et à leur taille, et dans l'implémentation de ces solutions.
+        </p>
+    </div><br>
+
+
+    <div class="sections">
+        <div class="section">
+            <div class="section-title"><i class="fas fa-project-diagram"></i>1- Schémas Directeurs Informatiques</div>
+            <p>Étude des orientations stratégiques de l’existant en matière de systèmes d’information, recueil des besoins métiers et priorisation, définition de scénario alternatifs valorisation de la stratégie SI et planification de la mise en œuvre.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><i class="fas fa-cogs"></i>2- Assistance aux Choix de Solutions SI</div>
+            <p>Préparation des appels d’offres, analyse et qualification des offres et assistance à la contractualisation.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><i class="fas fa-hands-helping"></i>3- Assistance à Maîtrise d’Ouvrage</div>
+            <p>Recueil des besoins métiers, spécification générale et détaillée des besoins, gestion de la recette des solutions développées, organisation des bascules et gestion de la maintenance applicative.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><i class="fas fa-tasks"></i>4- Assistance au Pilotage de Projets</div>
+            <p>Mise en place de la fonction PMO (Project Management Office) SI, assistance du pilotage des programmes, gouvernance projets SI et PMO projets.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><i class="fas fa-chart-line"></i>5- Pilotage de la Fonction Informatique</div>
+            <p>Organisation de la fonction SI, méthodologie de gestion de projets, contrôle de gestion de l’activité SI et gestion des risques SI.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><i class="fas fa-exchange-alt"></i>6- Transfert de Compétence</div>
+            <p>Le transfert de compétences dans le cas où le client change de prestataire ou décide de gérer la maintenance en interne.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title"><i class="fas fa-graduation-cap"></i>7- Formation</div>
+            <p>Enfin, la formation des utilisateurs pour leur permettre de mieux maîtriser les nouveaux outils.</p>
+        </div>
+    </div>
+
+
+        <!-------------------Accompagnement pour les cadres dirigeants------------------->
+
+    <!-- Header Section -->
+  <header class="bg-dark-blue text-center py-10">
+    <h1 class="text-4xl font-bold text-white">Management</h1>
+    <h2 class="text-xl text-gray-300 mt-2">Accompagnement pour les cadres dirigeants</h2>
+  </header>
+
+  <!-- Introduction Section -->
+  <section class="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-md mt-8 text-center">
+    <p class="text-gray-700">
+      Nous accompagnons nos clients, dirigeants et cadres dirigeants de grandes structures et de PME, dans l'élaboration de leur plan de formation. Nous leur proposons des programmes et des intervenants qui répondent à leurs attentes en inter et intra-entreprise. Par le biais de nos consultants experts dans différents domaines, nous accompagnons nos clients dans la conduite de leur changement et dans la valorisation de leur capital humain.
+    </p>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="max-w-3xl mx-auto mt-10 p-6">
+    <div class="relative flex flex-col">
+      <!-- Timeline Line -->
+      <div class="absolute left-5 top-0 bottom-0 timeline-line"></div>
+
+      <!-- Timeline Item 1 -->
+      <div class="flex items-center mb-8 relative timeline-item" id="timeline-item-1">
+        <div class="rounded-full bg-dark-blue w-8 h-8 flex-shrink-0"></div>
+        <div class="ml-10 p-4 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold text-dark-blue">Définition de la mission</h3>
+          <p class="text-gray-600">Nos équipes travaillent conjointement avec celles du client à la définition de la mission.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 2 -->
+      <div class="flex items-center mb-8 relative timeline-item" id="timeline-item-2">
+        <div class="rounded-full bg-dark-blue w-8 h-8 flex-shrink-0"></div>
+        <div class="ml-10 p-4 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold text-dark-blue">Validation des objectifs</h3>
+          <p class="text-gray-600">Nous validons les objectifs conjointement avec le client pour garantir l'alignement stratégique.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 3 -->
+      <div class="flex items-center mb-8 relative timeline-item" id="timeline-item-3">
+        <div class="rounded-full bg-dark-blue w-8 h-8 flex-shrink-0"></div>
+        <div class="ml-10 p-4 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold text-dark-blue">Recherche de solutions</h3>
+          <p class="text-gray-600">Nous aidons nos clients à rechercher et sélectionner les solutions adaptées à leurs besoins.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 4 -->
+      <div class="flex items-center mb-8 relative timeline-item" id="timeline-item-4">
+        <div class="rounded-full bg-dark-blue w-8 h-8 flex-shrink-0"></div>
+        <div class="ml-10 p-4 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold text-dark-blue">Mise en œuvre</h3>
+          <p class="text-gray-600">Nous assurons la mise en œuvre des stratégies pour un suivi optimal et des résultats concrets.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 5 -->
+      <div class="flex items-center mb-8 relative timeline-item" id="timeline-item-5">
+        <div class="rounded-full bg-dark-blue w-8 h-8 flex-shrink-0"></div>
+        <div class="ml-10 p-4 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold text-dark-blue">Évaluation des réalisations</h3>
+          <p class="text-gray-600">Nous évaluons les réalisations pour garantir que les objectifs sont atteints et ajustons si nécessaire.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 6 -->
+      <div class="flex items-center mb-8 relative timeline-item" id="timeline-item-6">
+        <div class="rounded-full bg-dark-blue w-8 h-8 flex-shrink-0"></div>
+        <div class="ml-10 p-4 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold text-dark-blue">Démarche pédagogique</h3>
+          <p class="text-gray-600">Notre démarche pédagogique respecte les étapes Avant, Pendant et Après chaque action.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 7 -->
+      <div class="flex items-center mb-8 relative timeline-item" id="timeline-item-7">
+        <div class="rounded-full bg-dark-blue w-8 h-8 flex-shrink-0"></div>
+        <div class="ml-10 p-4 bg-white shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold text-dark-blue">Adaptation et analyse de spécificités</h3>
+          <p class="text-gray-600">Nous adaptons chaque projet à ses spécificités pour offrir les solutions les plus appropriées.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!----------------Archivage et gestion des documents--------------------->
+    <!-- Header Section -->
+  <header class="bg-dark-blue text-center py-10">
+    <h1 class="text-4xl font-bold text-blue-500">Gestion des documents</h1>
+    <h2 class="text-xl text-blue-300 mt-2">Archivage et gestion des documents</h2>
+  </header>
+
+  <!-- Introduction Section -->
+  <section class="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-md mt-8 text-center">
+    <p>
+      Nous vous accompagnons dans la mise à niveau des connaissances de vos équipes en matière de gestion des données physique et électroniques, notamment le classement des dossiers en assurant un espace de travail non encombré permettant de minimiser le temps consacré à la recherche de l’information. Nous mettons à votre disposition notre expertise pour :
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="max-w-5xl mx-auto mt-10 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 p-6">
+    
+    <!-- Service Item 1 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-database icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Inculquer la culture de conservation des données</h3>
+      </div>
+      <p class="text-gray-600">Incorporer la culture de conservation des données et des informations au sein de votre entreprise.</p>
+    </div>
+
+    <!-- Service Item 2 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-chart-line icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Système de prise de décision</h3>
+      </div>
+      <p class="text-gray-600">Mettre en place un système de prise de décision basé sur des données pertinentes.</p>
+    </div>
+
+    <!-- Service Item 3 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-folder icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Système d'archivage</h3>
+      </div>
+      <p class="text-gray-600">Concevoir un système d'archivage facilitant la conservation et la consultation des données.</p>
+    </div>
+
+    <!-- Service Item 4 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-server icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Systèmes informatiques de gestion de BDD</h3>
+      </div>
+      <p class="text-gray-600">Mettre à disposition les derniers systèmes informatiques de gestion des BDD des dossiers et documents actifs, semi-actifs et d’utilité historique.</p>
+    </div>
+
+    <!-- Service Item 5 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-cogs icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Solutions sur mesure pour les fonds documentaires</h3>
+      </div>
+      <p class="text-gray-600">Concevoir des solutions adaptées à vos attentes en matière de gestion des fonds documentaires à l'aide de l'écoute active.</p>
+    </div>
+
+    <!-- Service Item 6 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-map-marker-alt icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Système d'adressage physique</h3>
+      </div>
+      <p class="text-gray-600">Accompagner la mise en place d’un système d’adressage physique répondant aux normes internationales.</p>
+    </div>
+
+    <!-- Service Item 7 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-tools icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Diagnostics approfondis</h3>
+      </div>
+      <p class="text-gray-600">Faire des diagnostics approfondis mettant en exergue les failles d'adressage et les mesures correctives.</p>
+    </div>
+
+    <!-- Service Item 8 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-city icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Systèmes d'adressage intégrés</h3>
+      </div>
+      <p class="text-gray-600">Adopter des systèmes d'adressage intégrés visant la concrétisation du concept de l'unicité de la ville.</p>
+    </div>
+
+    <!-- Service Item 9 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-shipping-fast icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Faciliter l'accès aux services</h3>
+      </div>
+      <p class="text-gray-600">Faciliter l'accès aux opérateurs e-commerce, sapeurs-pompiers, et agents de l’autorité.</p>
+    </div>
+
+    <!-- Service Item 10 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-map icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Cartes géo-codées</h3>
+      </div>
+      <p class="text-gray-600">Établir des cartes géo codées selon les catégories socio-professionnelles pour le ciblage des populations concernées.</p>
+    </div>
+
+    <!-- Service Item 11 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-chart-pie icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Études de zones de chalandise</h3>
+      </div>
+      <p class="text-gray-600">Faire des études de zones de chalandise pour l'implantation de nouvelles activités ou celles en concurrence.</p>
+    </div>
+
+    <!-- Service Item 12 -->
+    <div class="service-card bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition duration-500 transform hover:-translate-y-1 hover:scale-105">
+      <div class="flex items-center mb-4">
+        <i class="fas fa-tools icon"></i>
+        <h3 class="text-xl font-semibold text-dark-blue ml-3">Homogénéiser les outils d'adressage</h3>
+      </div>
+      <p class="text-gray-600">Homogénéiser et mettre à niveau les outils d’adressage physique de nos villes et localités.</p>
+    </div>
+
+  </section>
+
+
+
+
+    <!--------------------team-------------------------->
+    <section class="bg-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-4xl font-bold text-gray-800">NOTRE ÉQUIPE</h2>
+                <p class="text-gray-600 mt-4">Découvrez notre équipe dédiée de développeurs en informatique et de
+                    dirigeants, prêts à vous fournir des solutions innovantes.</p>
+            </div>
+
+            <!-- Grille des membres de l'équipe -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                <!-- Membre de l'équipe 1 : Abdessamad EL MOUBTAHIL -->
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center static team-member">
+                    <div class="relative">
+                        <img src="https://placehold.co/300x300" alt="Photo de Abdessamad EL MOUBTAHIL"
+                            class="w-48 h-48 mx-auto rounded-full mb-4">
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/abdessamad-el-moubtahil" target="_blank"
+                                class="text-white text-5xl linkedin-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mt-4">Abdessamad EL MOUBTAHIL</h3>
+                    <p class="text-gray-600">Développeur Informatique</p>
+                </div>
+
+                <!-- Membre de l'équipe 2 : Faouzi Haourigui -->
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center static team-member">
+                    <div class="relative">
+                        <img src="https://placehold.co/300x300" alt="Photo de Faouzi Haourigui"
+                            class="w-48 h-48 mx-auto rounded-full mb-4">
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/faouzi-haourigui" target="_blank"
+                                class="text-white text-5xl linkedin-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mt-4">Faouzi Haourigui</h3>
+                    <p class="text-gray-600">Développeur Informatique</p>
+                </div>
+
+                <!-- Membre de l'équipe 3 : Abdellah (CEO) -->
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center static team-member">
+                    <div class="relative">
+                        <img src="https://placehold.co/300x300" alt="Photo de Abdellah"
+                            class="w-48 h-48 mx-auto rounded-full mb-4">
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/abdellah" target="_blank"
+                                class="text-white text-5xl linkedin-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mt-4">Abdellah</h3>
+                    <p class="text-gray-600">CEO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!--------------------contact----------------------->
+    
+    <section id="contact" class="bg-transparent py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+            <!-- Image Side -->
+            <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+                <img src="https://i.postimg.cc/Y91cgTbF/Untitled-design-1.png" alt="Contact Image"
+                    class="rounded-lg shadow-lg w-full">
+            </div>
+
+            <!-- Form Side -->
+            <div id="toContact" class="w-full lg:w-1/2 lg:pl-8">
+                <h2 class="text-4xl font-bold text-gray-800 mb-6">Obtenir un devis</h2>
+                <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                    <input type="hidden" name="access_key" value="887ed2d8-3ba4-437a-b2f3-d54ba2a8dea5">
+                    <!-- Name -->
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Nom *</label>
+                        <input type="text" id="name" name="name" required
+                            class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700">Numéro de téléphone *</label>
+                        <input type="text" id="phone" name="phone" required pattern="\d*" maxlength="15"
+                            title="Veuillez entrer un numéro de téléphone valide"
+                            class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email *</label>
+                        <input type="email" id="email" name="email" required
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Veuillez entrer un email valide."
+                            class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+
+                    <!-- Service Dropdown -->
+                    <div>
+                        <label for="service" class="block text-sm font-medium text-gray-700">Service que vous recherchez
+                            *</label>
+                        <select id="service" name="service" required
+                            class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            <option value="" disabled selected>Choisissez un service</option>
+                            <option value="formation">Ingénierie et Plan de Formation</option>
+                            <option value="accompagnement">L'Accompagnement</option>
+                            <option value="recrutement">Le recrutement</option>
+                            <option value="formation">La Formation</option>
+                            <option value="team-building">Team Building</option>
+                            <option value="gestion-externalisee">Gestion externalisée du personnel (INTERIM)</option>
+                        </select>
+                    </div>
+
+                    <!-- Message -->
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" maxlength="500"
+                            placeholder="Limité à 500 caractères"
+                            class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+                        <p id="charCount" class="text-sm text-gray-500">0/500 caractères</p>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div>
+                        <button id="btn" type="submit"
+                            class="w-full text-white py-3 rounded-md shadow-lg hover:bg-blue-700 focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Obtenir
+                            un devis</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center bg-body-tertiary">
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div id="footerText" class="text-center p-3">
+          © 2024 Copyright
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
